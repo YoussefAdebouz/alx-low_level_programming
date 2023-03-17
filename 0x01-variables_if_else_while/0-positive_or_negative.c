@@ -5,6 +5,8 @@
 /**
  * main - Entry point
  *
+ * random numbers to the screen, then tells the user if it's
+ * positive, negative, or a zero.
  * Return: Always 0 (Success)
  */
 
