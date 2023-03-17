@@ -1,36 +1,25 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - This program uses the function rand() to output
  * random numbers to the screen, then tells the user if it's
  * positive, negative, or a zero.
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-    int n;
+	int n;
 
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-    
-    printf("%d ", n);
-    if (n > 0)
-    {
-        printf("is positive\n");
-    }
-    else if (n == 0)
-    {
-        printf("is zero\n");
-    }
-    else
-    {
-        printf("is negative\n");
-    }
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 
-    return (0);
+	return (0);
 }
-
