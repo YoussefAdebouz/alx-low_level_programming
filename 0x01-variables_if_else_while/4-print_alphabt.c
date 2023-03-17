@@ -2,7 +2,7 @@
 
 /**
  * main - This program prints the alphabet in lowercase
- * and then in uppercase as well.
+ * but skips the letters q and e, using only putchar
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -10,9 +10,10 @@ int main(void)
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	{
+		if (ch != 'e' && ch != 'q')
+			putchar(ch);
+	}
 
 	putchar('\n');
 
