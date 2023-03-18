@@ -1,6 +1,6 @@
 # description of each script and what is doing
 
-0.*** Positive anything is better than negative nothing***
+0. ***Positive anything is better than negative nothing***
 This program assign a random number to the variable n each time it is executed and print whether the number.
 1. ***The last digit***
 This program assign a random number to the variable n each time it is executed and print the last digit of the number.
