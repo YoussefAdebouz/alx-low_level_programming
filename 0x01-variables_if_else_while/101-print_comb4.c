@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - Print the numbers of 000 to 999.
-* Return: 0
-*/
+ * main - This program prints the numbers from 00 to 99.
+ * Numbers are separated by a comma and a space, are printed
+ * in ascending order, and putchar is used to print to screen.
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
