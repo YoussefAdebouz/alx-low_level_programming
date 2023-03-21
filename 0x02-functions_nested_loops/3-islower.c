@@ -3,7 +3,7 @@
 /**
  * _islower - found the lowercase characters.
  *
- * c is the variable for the program.
+ * @c: c is the variable for the program.
  *
  * Return: Always 0.
  */
