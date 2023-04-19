@@ -13,10 +13,10 @@
 ### [2. To hell with circumstances; I create opportunities](./2-int_index.c)
 * A function that searches for an integer.
 
-<!---
+
 ### [3. A goal is not always meant to be reached, it often serves simply as something to aim at](./3-main.c)
 * A program that performs simple operations.
--->
+
 ---
 
 ## Author
